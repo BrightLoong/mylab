@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="design-patterns-learn" />
+        <module name="eureka-consumer" />
+        <module name="eureka-consumer-hystrix" />
+        <module name="eureka-producer" />
+        <module name="eureka-producer2" />
+        <module name="eureka-server" />
+        <module name="java-all-learn" />
+        <module name="netty-learn" />
+        <module name="rabbit-learn" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config" target="1.8" />
+      <module name="design-patterns-learn" target="1.8" />
+      <module name="discovery" target="1.8" />
+      <module name="eureka-consumer" target="1.8" />
+      <module name="eureka-consumer-hystrix" target="1.8" />
+      <module name="eureka-producer" target="1.8" />
+      <module name="eureka-producer2" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="java-all-learn" target="1.8" />
+      <module name="mylab" target="1.8" />
+      <module name="netty-learn" target="1.8" />
+      <module name="rabbit-learn" target="1.8" />
+      <module name="spring-cloud-learn" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

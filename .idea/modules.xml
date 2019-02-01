@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/design-patterns-learn/design-patterns-learn.iml" filepath="$PROJECT_DIR$/design-patterns-learn/design-patterns-learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-learn/eureka-consumer/eureka-consumer.iml" filepath="$PROJECT_DIR$/spring-cloud-learn/eureka-consumer/eureka-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-learn/eureka-consumer-hystrix/eureka-consumer-hystrix.iml" filepath="$PROJECT_DIR$/spring-cloud-learn/eureka-consumer-hystrix/eureka-consumer-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-learn/eureka-producer/eureka-producer.iml" filepath="$PROJECT_DIR$/spring-cloud-learn/eureka-producer/eureka-producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-learn/eureka-producer2/eureka-producer2.iml" filepath="$PROJECT_DIR$/spring-cloud-learn/eureka-producer2/eureka-producer2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-learn/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/spring-cloud-learn/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-all-learn/java-all-learn.iml" filepath="$PROJECT_DIR$/java-all-learn/java-all-learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mylab.iml" filepath="$PROJECT_DIR$/mylab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty-learn/netty-learn.iml" filepath="$PROJECT_DIR$/netty-learn/netty-learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbit-learn/rabbit-learn.iml" filepath="$PROJECT_DIR$/rabbit-learn/rabbit-learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-learn/spring-cloud-learn.iml" filepath="$PROJECT_DIR$/spring-cloud-learn/spring-cloud-learn.iml" />
+    </modules>
+  </component>
+</project>
