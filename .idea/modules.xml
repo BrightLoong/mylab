@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-learn/eureka-producer2/eureka-producer2.iml" filepath="$PROJECT_DIR$/spring-cloud-learn/eureka-producer2/eureka-producer2.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-learn/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/spring-cloud-learn/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-all-learn/java-all-learn.iml" filepath="$PROJECT_DIR$/java-all-learn/java-all-learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-learn/mybatis-learn.iml" filepath="$PROJECT_DIR$/mybatis-learn/mybatis-learn.iml" />
       <module fileurl="file://$PROJECT_DIR$/mylab.iml" filepath="$PROJECT_DIR$/mylab.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-learn/netty-learn.iml" filepath="$PROJECT_DIR$/netty-learn/netty-learn.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbit-learn/rabbit-learn.iml" filepath="$PROJECT_DIR$/rabbit-learn/rabbit-learn.iml" />

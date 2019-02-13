@@ -36,6 +36,7 @@
         <module>spring-cloud-learn</module>
         <module>design-patterns-learn</module>
         <module>java-all-learn</module>
+        <module>mybatis-learn</module>
     </modules>
 
 </project>
