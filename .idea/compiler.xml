@@ -13,6 +13,7 @@
         <module name="eureka-producer2" />
         <module name="eureka-server" />
         <module name="java-all-learn" />
+        <module name="mybatis-learn" />
         <module name="netty-learn" />
         <module name="rabbit-learn" />
       </profile>
@@ -27,6 +28,7 @@
       <module name="eureka-producer2" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="java-all-learn" target="1.8" />
+      <module name="mybatis-learn" target="1.8" />
       <module name="mylab" target="1.8" />
       <module name="netty-learn" target="1.8" />
       <module name="rabbit-learn" target="1.8" />
