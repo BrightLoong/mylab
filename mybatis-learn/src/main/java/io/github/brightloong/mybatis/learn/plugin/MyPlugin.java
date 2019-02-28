@@ -29,6 +29,7 @@ public class MyPlugin implements Interceptor {
 
     @Override
     public Object plugin(Object target) {
+        //打印四次，分别对应Executor SatementHandler ParameterHandler ResultHandler
         System.err.println("生成代理对象。。。。。。");
         return Plugin.wrap(target, this);
     }
