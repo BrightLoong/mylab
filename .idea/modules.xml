@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/coding-interview/coding-interview.iml" filepath="$PROJECT_DIR$/coding-interview/coding-interview.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-patterns-learn/design-patterns-learn.iml" filepath="$PROJECT_DIR$/design-patterns-learn/design-patterns-learn.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-learn/eureka-consumer/eureka-consumer.iml" filepath="$PROJECT_DIR$/spring-cloud-learn/eureka-consumer/eureka-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-learn/eureka-consumer-hystrix/eureka-consumer-hystrix.iml" filepath="$PROJECT_DIR$/spring-cloud-learn/eureka-consumer-hystrix/eureka-consumer-hystrix.iml" />
@@ -13,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/mylab.iml" filepath="$PROJECT_DIR$/mylab.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-learn/netty-learn.iml" filepath="$PROJECT_DIR$/netty-learn/netty-learn.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbit-learn/rabbit-learn.iml" filepath="$PROJECT_DIR$/rabbit-learn/rabbit-learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-learn/spring-boot-learn.iml" filepath="$PROJECT_DIR$/spring-boot-learn/spring-boot-learn.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-learn/spring-cloud-learn.iml" filepath="$PROJECT_DIR$/spring-cloud-learn/spring-cloud-learn.iml" />
     </modules>
   </component>

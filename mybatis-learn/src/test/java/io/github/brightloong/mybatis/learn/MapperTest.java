@@ -6,6 +6,7 @@ import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+import org.apache.log4j.Logger;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -13,7 +14,6 @@ import org.junit.Test;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.List;
 
 /**
  * @author BrightLoong
@@ -21,6 +21,9 @@ import java.util.List;
  * @description
  */
 public class MapperTest {
+
+    private static final Logger logger = Logger.getLogger(MapperTest.class);
+
     private SqlSession sqlSession;
 
     @Before
@@ -29,7 +32,7 @@ public class MapperTest {
         InputStream inputStream = Resources.getResourceAsStream(resource);
         SqlSessionFactoryBuilder sqlSessionFactoryBuilder = new SqlSessionFactoryBuilder();
         SqlSessionFactory sqlSessionFactory = sqlSessionFactoryBuilder.build(inputStream);
-        sqlSession = sqlSessionFactory.openSession();
+        sqlSession = sqlSessionFactory.openSession(false);
     }
 
     @After
@@ -40,7 +43,9 @@ public class MapperTest {
     @Test
     public void testSelect() {
         BindRecordMapper mapper = sqlSession.getMapper(BindRecordMapper.class);
-        List<BindRecord> bindRecord = mapper.selectAll();
+        BindRecord bindRecord = mapper.selectById(19646L);
+        BindRecord bindRecord2 = mapper.selectById(19646L);
+        logger.info("testSelect查询完成");
         Assert.assertNotNull(bindRecord);
     }
 }
