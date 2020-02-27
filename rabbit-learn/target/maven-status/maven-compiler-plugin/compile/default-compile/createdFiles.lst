@@ -1,0 +1,8 @@
+io/github/brightloong/rabbit/learn/chapter04/rpc/RpcServer.class
+io/github/brightloong/rabbit/learn/chapter01/RabbitProducer.class
+io/github/brightloong/rabbit/learn/chapter01/RabbitConsumer.class
+io/github/brightloong/rabbit/learn/chapter04/rpc/RpcClient.class
+io/github/brightloong/rabbit/learn/chapter01/RabbitConsumer$1.class
+io/github/brightloong/rabbit/learn/RabbitUtils.class
+io/github/brightloong/rabbit/learn/chapter04/rpc/RpcServer$1.class
+io/github/brightloong/rabbit/learn/chapter04/rpc/RpcClient$1.class
