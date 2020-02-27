@@ -11,5 +11,12 @@
 
     <artifactId>java-all-learn</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+        </dependency>
+    </dependencies>
+
 
 </project>

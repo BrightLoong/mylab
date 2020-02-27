@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="io.github.brightloong.mybatis.learn.mapper.BindRecordMapper">
+    <resultMap id="BaseResultMap" type="io.github.brightloong.mybatis.learn.pojo.BindRecord">
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="id" jdbcType="BIGINT" property="id"/>
+        <result column="bind_uid" jdbcType="BIGINT" property="bindUid"/>
+        <result column="bind_by_uid" jdbcType="BIGINT" property="bindByUid"/>
+        <result column="bind_type" jdbcType="INTEGER" property="bindType"/>
+        <result column="bind_rule_ref" jdbcType="BIGINT" property="bindRuleRef"/>
+        <result column="start_time" jdbcType="TIMESTAMP" property="startTime"/>
+        <result column="end_time" jdbcType="TIMESTAMP" property="endTime"/>
+        <result column="created_time" jdbcType="TIMESTAMP" property="createdTime"/>
+        <result column="last_updated_time" jdbcType="TIMESTAMP" property="lastUpdatedTime"/>
+    </resultMap>
+
+
+    <select id="selectById" resultType="io.github.brightloong.mybatis.learn.pojo.BindRecord">
+        select * from BIND_RECORD WHERE id = #{id}
+    </select>
+    <select id="selectAll" resultType="io.github.brightloong.mybatis.learn.pojo.BindRecord">
+        select * from BIND_RECORD
+    </select>
+</mapper>

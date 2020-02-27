@@ -5,7 +5,6 @@ package io.github.brightloong.coding.interview;
  */
 public class _0301DuplicationInArray {
     public static void main(String[] args) {
-
     }
 
     public void findDuplication(int[] array) {
