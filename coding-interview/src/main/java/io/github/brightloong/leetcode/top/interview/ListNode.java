@@ -1,5 +1,8 @@
 package io.github.brightloong.leetcode.top.interview;
 
+import javax.xml.soap.Node;
+import java.util.Objects;
+
 /**
  * @author BrightLoong
  * @date 2020/1/13 10:16
@@ -11,7 +14,24 @@ package io.github.brightloong.leetcode.top.interview;
       ListNode(int x) { val = x; }
   }
 
-class Solution {
+ class Solution {
+
+     public ListNode reverse(ListNode node) {
+         if (Objects.nonNull(node)) {
+             ListNode before = node;
+             ListNode result = node;
+             node = node.next;
+             result.next = null;
+             while (Objects.nonNull(node)) {
+                 result = node;
+                 node = node.next;
+                 result.next = before;
+                 before = result;
+             }
+             return result;
+         }
+         return null;
+     }
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode result = null;
         //进位
@@ -32,5 +52,15 @@ class Solution {
         } while (l1 != null || l2 != null);
 
         return result;
+    }
+
+    public static void main(String[] args) {
+        ListNode node = new ListNode(5);
+        node.next = new ListNode(4);
+        node.next.next = new ListNode(3);
+        node.next.next.next = new ListNode(2);
+        Solution solution = new Solution();
+        ListNode reverse = solution.reverse(node);
+        System.out.println(reverse);
     }
 }
