@@ -28,7 +28,7 @@
         <wxeco.common.version>0.0.8</wxeco.common.version>
         <pagehelper.version>1.2.3</pagehelper.version>
         <lombok.version>1.16.20</lombok.version>
-        <common.io.version>2.5</common.io.version>
+        <common.io.version>2.7</common.io.version>
         <fastjson.version>1.2.51</fastjson.version>
         <commons.collections4.version>4.2</commons.collections4.version>
         <business.product.query.version>2.2.18-M3</business.product.query.version>
